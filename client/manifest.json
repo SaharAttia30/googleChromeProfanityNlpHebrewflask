@@ -1,0 +1,17 @@
+{
+  "name": "family  sahar",
+  "version": "2.0.0",
+  "description": "This is an extension to blurr cuss words",
+  "manifest_version": 3,
+  "icons": {
+    "16": "/photos/4.png",
+    "48": "/photos/1.png",
+    "128": "/photos/6.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [ "<all_urls>" ],
+      "js": [ "javascrii.js" ]
+    }
+  ]
+}
